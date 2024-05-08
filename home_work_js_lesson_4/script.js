@@ -29,7 +29,7 @@ console.log(numberPrefix());
 const mark = () => {
     return strings.map(str => `**${str}**`);
 }
-console.log(mark());
+console.log(mark()); 
 
  
 
