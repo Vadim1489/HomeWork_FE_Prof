@@ -15,6 +15,10 @@ console.log(toUpperCase());
 const sqrt = () => numbers.map(number => number ** 2);
 console.log(sqrt());
 // 4. Напишите функцию, которая принимает массив чисел и возвращает новый массив, в котором каждое число заменено суммой его цифр. Например, из числа 123 получится число 6 (1 + 2 + 3).
+const sumElem = () => {
+    return numbers.map(num => String(num).split('').reduce((sum , digit) => sum + parseInt(digit),0));
+}
+console.log(sumElem());
 // 5. Напишите функцию, которая принимает массив строк и возвращает новый массив, содержащий первые буквы каждого слова из исходного массива.
 const firstLetter = () => {
     return strings.map(str => str[0]);
