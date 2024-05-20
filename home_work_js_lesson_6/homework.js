@@ -61,3 +61,10 @@ const sortByLength = arr => arr.slice().sort((a, b) => a.length - b.length);
 console.log(sortByLength(["apple", "banana", "cherry", "date", "elderberry", "fig", "grape"]));
 
 // 13. Среднее значение чисел в массиве: Напишите функцию, которая принимает массив чисел и возвращает их среднее значение.
+
+const average = arr => {
+    const sum = arr.reduce((acc, num) => acc + num , 0);
+    return sum / arr.length;
+}
+
+console.log(average( numbers));
