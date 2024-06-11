@@ -1,0 +1,11 @@
+.p_color {
+    font-size: 20px;
+    color: blueviolet;
+    background-color: bisque;
+}
+
+.hovered {
+    background-color: blueviolet;
+    border: 2px solid green;
+    border-radius: 5%;
+}
